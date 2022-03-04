@@ -1,0 +1,9 @@
+.Rproj*
+*.Rproj
+*.Rhistory
+.Rproj.user/*
+.Rproj.user/
+.Rproj.user\
+.Rproj.user/821EB5E2/sources/prop/E5EC9B98
+.Rproj.user/821EB5E2/sources/prop/INDEX
+.Rproj.user/shared/notebooks/paths

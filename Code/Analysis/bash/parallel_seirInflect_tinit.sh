@@ -11,7 +11,7 @@
 
 module load R/4.0.2 || exit 1
  
-Rscript --vanilla ./seirInflect_tinit_beta2.R $SLURM_ARRAY_TASK_ID || exit 2
+Rscript --vanilla ./bashCall_seirInflect_tinit_beta2.R $SLURM_ARRAY_TASK_ID || exit 2
 
 exit 0
 
