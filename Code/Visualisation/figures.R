@@ -2194,6 +2194,8 @@ plot(ee_out, "R") +
   theme_bw() + 
   labs(title = "", y = expression(R[t]), x = "relative date") + 
   coord_cartesian(xlim = c(0, 50)) + 
+  geom_segment(x = 12, xend = 12, y = 17, yend = 10, col = "red", arrow = arrow(ends = "last", length = unit(0.1, "inches"))) + 
+  geom_text(x = 12, y = 20, col = "red", label = expression(t[inflect])) + 
   theme(axis.title.y = element_text(angle = 0, hjust = 0, vjust = 0.5)) + 
   guides(color = "none", fill = "none")
 
