@@ -574,6 +574,7 @@ best_id = these_approved_sims2 %>% filter(ll == max(ll)) %>% pull(rep) %>% uniqu
 
 
 #### plot these together
+SAR_numer_threshold
 
 onephase = obs_df1 %>% 
   transmute(Date, Data = pos) %>% 
